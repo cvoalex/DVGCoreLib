@@ -1,0 +1,6 @@
+framework module DVGCore {
+  umbrella header "DVGCore-umbrella.h"
+
+  export *
+  module * { export * }
+}
