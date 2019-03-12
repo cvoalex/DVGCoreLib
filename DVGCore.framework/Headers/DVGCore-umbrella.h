@@ -12,6 +12,7 @@
 
 #import "HLSRecSettings.h"
 #import "HLSStream.h"
+#import "H264HwEncoderImpl.h"
 
 FOUNDATION_EXPORT double DVGCoreVersionNumber;
 FOUNDATION_EXPORT const unsigned char DVGCoreVersionString[];
