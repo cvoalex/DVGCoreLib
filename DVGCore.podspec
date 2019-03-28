@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DVGCore'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'package raw video/audio frames'
 
 # This description is used to generate tags and improve search results.
@@ -28,6 +28,7 @@ use DVGVidLib to package raw data and send to the server in real time
   s.source           = { :git => 'https://github.com/cvoalex/DVGCoreLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.swift_version = '4.2'
   s.ios.deployment_target = '10.0'
   s.ios.vendored_frameworks = 'DVGCore.framework'
 
